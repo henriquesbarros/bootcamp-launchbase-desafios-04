@@ -17,7 +17,7 @@
 - [Estruturando estudantes](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-04/blob/master/desafios/04-7-students.md) :heavy_check_mark:
 - [Administração do Foodfy](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-04/blob/master/desafios/04-admin-foodfy.md) :heavy_check_mark:
 
-## :movie_camera: Apresentação do Desafios do Módulo 04
+## :movie_camera: Apresentação do Desafio do Módulo 04
 
 - [Desafio concluído](https://youtu.be/rN816mC4Yys)
 
