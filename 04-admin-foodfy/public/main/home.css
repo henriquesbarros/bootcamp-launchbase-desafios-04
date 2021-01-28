@@ -1,0 +1,58 @@
+.about {
+    height: 366px;
+    background-color: #FBDFDB;
+    position: relative;
+    border-radius: 30px;
+}
+
+.about .text {
+    width: 316px;
+    position: absolute;
+    left: 60px;
+    bottom: 117px;
+}
+
+.about .text p {
+    opacity: 0.7;
+    color: #000;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.about .chef-image {
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.home-mid-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.recipes {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 20px;
+    row-gap: 30px;
+    margin-bottom: 50px;
+}
+
+.recipes .recipe img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.recipes .recipe h3 {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.recipes .recipe p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+

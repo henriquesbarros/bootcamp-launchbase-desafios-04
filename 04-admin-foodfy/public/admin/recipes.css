@@ -1,0 +1,44 @@
+main .recipes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+main .recipe {
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 172px 1fr;
+    column-gap: 20px;
+}
+
+main .recipe .card-recipe-image img {
+    width: 172px;
+    height: 80px;
+    border-radius: 8.75px;
+}
+
+main .recipes .recipe h3 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+main .recipes .recipe p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+main .recipes .recipe .link a {
+    font-weight: 700;
+    font-size: 14px;
+    color: #6558C3;
+    text-decoration: none;
+}
+
+main .recipes .recipe .link a:hover {
+    color: #240ecc;
+    transition: 200ms;
+}

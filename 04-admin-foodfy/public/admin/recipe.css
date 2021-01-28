@@ -1,0 +1,59 @@
+.recipe-image img{
+    border-radius: 15px;
+    width: 100%;
+}
+
+.mid-title {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.mid-title p {
+    font-size: 20px;
+    color: #777;
+}
+
+.ingredients {
+    margin-top: 50px;
+}
+
+.show {
+    cursor: pointer;
+}
+
+.ingredients h2,
+.preparation h2,
+.add-information h2 {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.ingredients a,
+.preparation a,
+.add-information a {
+    font-weight: bold;
+    font-size: 12px;
+    color: #999;
+    margin-left: 8px;
+}
+
+.ingredients ul, 
+.preparation ul {
+    list-style-position: inside;
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.add-information p {
+    font-size: 18px;
+    color: #444;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.h2-and-button {
+    display: flex;
+    justify-content: space-between;
+}

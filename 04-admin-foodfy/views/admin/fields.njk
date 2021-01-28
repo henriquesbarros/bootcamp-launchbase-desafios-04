@@ -1,0 +1,51 @@
+<fieldset>
+    <legend>Imagem da receita</legend>
+    <input type="url" name="image" value="{{ recipe.image }}">
+</fieldset>
+
+<fieldset>
+    <legend>Nome da receita</legend>
+    <input type="text" name="name" value="{{ recipe.name }}">
+</fieldset>
+
+<fieldset>
+    <legend>Autor da receita</legend>
+    <input type="text" name="author" value="{{ recipe.author }}">
+</fieldset>
+
+<fieldset id="ingredients">
+    <legend>Ingredientes</legend>
+    <div class="ingredient">
+        {% for ingredient in recipe.ingredients %}
+        <input  type="text" name="ingredients[]" value="{{ ingredient }}">
+        {% endfor %}
+    </div>
+</fieldset>
+
+<div class="add-button">
+    <a class="add-ingredient">Adicionar novo ingrediente</a>
+</div>
+
+<fieldset id="preparations">
+    <legend>Modo de preparo</legend>
+    <div class="preparation">
+        {% for preparation in recipe.preparations %}
+            <input type="text" name="preparations[]" value="{{ preparation }}">
+        {% endfor %}
+    </div>
+</fieldset>
+
+<div class="add-button">
+    <a class="add-preparation">Adicionar novo passo</a>
+</div>
+
+<fieldset>
+    <legend>Informações adicionais</legend>
+    <textarea name="informations">{{ recipe.informations }}</textarea>
+</fieldset>
+
+<button type="submit" class="button">Salvar receita</button>
+
+
+
+

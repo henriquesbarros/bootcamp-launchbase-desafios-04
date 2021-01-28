@@ -1,0 +1,34 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+<main>
+    <form class="card" method="POST" action="/estudantes?_method=PUT">
+        <section 
+            class="avatar" 
+            style="border-radius: 4px 0 0 4px; background: url({{ student.avatar_url }}) no-repeat center center / cover">
+        </section>
+        <section class="details">
+
+            <h3>Editar estudante</h3>
+
+            {% include 'students/fields.njk' %}
+
+            <input type="hidden" name="id" value="{{ student.id }}">
+
+        </section>
+    </form>
+</main>
+
+{# <script>
+    const formDelete = document.querySelector('#form-delete')
+    formDelete.addEventListener('submit', function(event){
+        const confirmation = confirm("Deseja deletar?")
+        if(!confirmation) {
+            event.preventDefault()
+        }
+    })
+</script> #}
+
+{% include "../confirm.njk" %}
+
+{% endblock content %}

@@ -1,0 +1,17 @@
+.about-mid-title {
+    margin-bottom: 20px;
+}
+
+.text-box-1 p,
+.text-box-2 p,
+.text-box-3 p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.text-box-3 p {
+    margin-bottom: 50px;
+}

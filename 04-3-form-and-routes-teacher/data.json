@@ -1,0 +1,14 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Henrique Santos de Barros",
+      "avatar_url": "https://github.com/henriquesbarros",
+      "birth": 921801600000,
+      "schooling": "medium",
+      "type_class": "presential",
+      "acting": "Front-end",
+      "created_at": 1611350568012
+    }
+  ]
+}

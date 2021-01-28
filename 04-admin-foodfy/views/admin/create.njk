@@ -1,0 +1,68 @@
+{% extends 'admin/layout.njk' %}
+
+{% block head %}
+    <link rel="stylesheet" href="/admin/create.css">
+{% endblock head %}
+
+{% block content %}
+
+<main class="container">
+
+    <form id="form-save" action="/admin/recipes" method="POST">
+
+        <div class="h2-and-button">
+            <h2>Criando receita</h2>
+            <button form="form-save" type="submit" class="button">Salvar receita</button>
+        </div>
+
+        <fieldset>
+            <legend>Imagem da receita</legend>
+            <input type="url" name="image">
+        </fieldset>
+
+        <fieldset>
+            <legend>Nome da receita</legend>
+            <input type="text" name="name">
+        </fieldset>
+
+        <fieldset>
+            <legend>Autor da receita</legend>
+            <input type="text" name="author">
+        </fieldset>
+
+        <fieldset id="ingredients">
+            <legend>Ingredientes</legend>
+            <div class="ingredient">
+                <input  type="text" name="ingredients[]">
+            </div>
+        </fieldset>
+
+        <div class="add-button">
+            <a class="add-ingredient">Adicionar novo ingrediente</a>
+        </div>
+
+        <fieldset id="preparations">
+            <legend>Modo de preparo</legend>
+            <div class="preparation">
+                <input type="text" name="preparations[]">
+            </div>
+        </fieldset>
+
+        <div class="add-button">
+            <a class="add-preparation">Adicionar novo passo</a>
+        </div>
+
+        <fieldset>
+            <legend>Informações adicionais</legend>
+            <textarea name="informations"></textarea>
+        </fieldset>
+
+    {# <button type="submit" class="button">Salvar receita</button> #}
+
+    </form>
+    
+</main>
+
+{% include "admin/addFields.njk" %}
+
+{% endblock content %}

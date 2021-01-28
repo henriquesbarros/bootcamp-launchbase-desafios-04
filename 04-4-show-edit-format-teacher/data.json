@@ -1,0 +1,14 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Henrique Santos de Barros",
+      "avatar_url": "https://data.1freewallpapers.com/download/code-programming-text-technology.jpg",
+      "birth": 921801600000,
+      "schooling": "higher",
+      "type_class": "presential",
+      "acting": "Front-end, Back-end",
+      "created_at": 1611350568012
+    }
+  ]
+}
